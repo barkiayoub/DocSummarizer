@@ -1,11 +1,11 @@
 # **DocSummarizer – AI-Powered Text Summarization & Sentiment Analysis**  
 
-DocSummarizer is a **Streamlit-based web app** that extracts, summarizes, and analyzes sentiment from **TXT, DOCX, and PDF files** using **T5-Large** for text summarization and **NLTK** for sentiment analysis.  
+DocSummarizer is a **Streamlit-based web app** that extracts, summarizes, and analyzes sentiment from **TXT, DOCX, and PDF files** using **Mistral AI** for text summarization and **NLTK** for sentiment analysis.  
 
 ---
 
 ## **Features**  
-- AI-powered summarization using `T5-Large`.  
+- AI-powered summarization using `Mistral AI`.  
 - Supports text extraction from **TXT, DOCX, and PDF** files.  
 - Sentiment analysis to classify text as **Positive, Neutral, or Negative**.  
 - User-friendly web app built with **Streamlit**.  
@@ -49,8 +49,8 @@ streamlit run app.py
 ---
 
 ## **Dependencies**  
-- `transformers` – Hugging Face's `T5-Large` for summarization.  
-- `nltk` – Sentiment analysis using `VADER`.  
+- `transformers` – Hugging Face's `Mistral ai` for summarization.  
+- `nltk` – Sentiment analysis.  
 - `streamlit` – Web interface.  
 - `PyPDF2` – PDF text extraction.  
 - `python-docx` – DOCX text extraction.  
